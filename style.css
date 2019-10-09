@@ -65,6 +65,7 @@ span {
     margin-top: 10%;
     text-align: center;
     font-size: 4rem;
+    color: #E8B95A;
 }
 
 section {
@@ -73,6 +74,8 @@ section {
     font-family: STXingkai;
     padding: 0 10px 10px 15px;
     text-align: center;
+    position: relative;
+    top: 25%;
 }
 
 .cover, .back {
