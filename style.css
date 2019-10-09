@@ -24,7 +24,7 @@ img{
 }
 
 .card-container {
-    width: 400px;
+    width: 370px;
     height: 500px;
     position: relative;
     perspective: 1000px;
@@ -69,7 +69,7 @@ span {
 
 section {
     color:wheat;
-    font-size: .8rem;
+    font-size: 1.3rem;
     font-family: STXingkai;
     padding: 0 10px 10px 15px;
     text-align: center;
