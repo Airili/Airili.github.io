@@ -87,7 +87,7 @@ section {
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    transition: transform .25s ease-in-out;
+    transition: transform .75s ease-in-out;
     /* display: flex; */
     justify-content: center;
     align-items: center;
