@@ -1,10 +1,8 @@
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient( 75.5deg,  rgba(217,115,115,1) 22.3%, rgba(234,245,165,1) 59.1%, rgba(165,245,242,1) 89.7% );
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 img{
@@ -12,7 +10,7 @@ img{
     height: 110px;
     width: 110px;
     float: right;
-    top: 10%;
+    top: -12%;
     right: 5%;
     z-index: 1;
     transform: rotate(30deg); 
@@ -24,17 +22,24 @@ img{
 }
 
 .card-container {
-    width: 370px;
-    height: 500px;
+    width: 600px;
+    height: 380px;
     position: relative;
     perspective: 1000px;
+    margin: auto;
 }
 
 article {
     margin-top: 20%;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: FZYaoti;
+    text-align: center;
+}
+
+section {
+    font-size: 1rem;
+    margin-top: 0%;
 }
 
 span {
@@ -46,7 +51,7 @@ span {
     color: grey;
     font-size: .6rem;
     float: right;
-    margin-top: 25%;
+    margin-top: 18%;
 }
 .name {
     margin-top: 10%;
@@ -56,9 +61,7 @@ span {
 }
 
 #HM{
-    color: #996666;
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 .main{
@@ -75,11 +78,17 @@ section {
     padding: 0 10px 10px 15px;
     text-align: center;
     position: relative;
-    top: 10%;
+    top: 18%;
+}
+
+#top {
+    color:#e6ff02f3;
+    font-family: "Microsoft YaHei";
 }
 
 #to {
     text-align: left;
+    color: aqua;
 }
 
 .cover, .back {
@@ -110,6 +119,7 @@ section {
 }
 
 .back{
+    margin-top: 0;
     background-color: yellow;
     transform: rotateY(-180deg);
     background-image: linear-gradient( 180.5deg,  rgba(0,128,128,1) 8.5%, rgba(174,206,100,1) 118.2% );
@@ -120,5 +130,5 @@ section {
 }
 
 .card-container:hover img{
-    display: none;
+    overflow: hidden;
 }
